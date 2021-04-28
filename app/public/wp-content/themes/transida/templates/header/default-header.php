@@ -64,7 +64,7 @@ $logo_typography = '';
         <div class="header-upper">
             <div class="auto-container">
                 <div class="inner-container">
-                    <!--Logo hppay-->
+                    <!--Logo-->
                     <div class="logo-box">
                         <div class="logo"><?php echo transida_logo( $logo_type, $image_logo, $logo_dimension, $logo_text, $logo_typography ); ?></div>
                     </div>

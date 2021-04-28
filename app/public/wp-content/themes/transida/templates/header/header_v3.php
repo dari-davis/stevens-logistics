@@ -72,7 +72,7 @@ $logo_typography = '';
         <div class="header-upper">
             <div class="auto-container">
                 <div class="inner-container">
-                    <!--Logo Pizza-->
+                    <!--Logo-->
                     <div class="logo-box">
                     pizza
                         <div class="logo"><?php echo transida_logo( $logo_type, $image_logo3, $logo_dimension3, $logo_text, $logo_typography ); ?></div>

@@ -65,7 +65,7 @@ $logo_typography = '';
         <div class="header-upper">
             <div class="auto-container">
                 <div class="inner-container">
-                    <!--Logo Sun-->
+                    <!--Logo-->
                     <div class="logo-box">
                         <div class="logo"><?php echo transida_logo( $logo_type, $image_logo2, $logo_dimension2, $logo_text, $logo_typography ); ?></div>
                     </div>
