@@ -5,3 +5,7 @@
 * Template: transida
 * Version: 1.1
 */
+
+.about-company .icon {
+	max-width: 80px;
+}

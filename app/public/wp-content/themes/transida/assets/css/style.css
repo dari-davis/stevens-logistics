@@ -164,7 +164,7 @@ button {
 
 .auto-container {
     position: static;
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 0px 15px;
     margin: 0 auto;
 }
@@ -7060,7 +7060,7 @@ section.whychooseus-section-two {
 }
 
 .facts-section-three .inner:hover .content:before {
-    border-color: #4caf50;
+    border-color: #b70005;
 }
 
 .facts-section-three .icon {
@@ -7201,7 +7201,7 @@ section.whychooseus-section-two {
 
 .skills{
 	position: relative;
-	background: #4caf50;
+	background: #b70005;
     padding: 36px 30px;
     margin-bottom: 30px;
 }
@@ -7219,7 +7219,7 @@ section.whychooseus-section-two {
 	position:relative;
 	width:100%;
 	height: 8px;
-	background-color: #439c47;
+	background-color: #000000;
 	border-radius: 3.5px;
 }
 
@@ -8246,7 +8246,7 @@ section.whychooseus-section-two {
 /* Header Style Four */
 
 .header-style-four .header-top {
-    background: #013277;
+    background: #b70005;
 }
 
 .header-style-four .header-top .search-box {
@@ -8274,26 +8274,6 @@ section.whychooseus-section-two {
 
 .header-style-four .header-top .social-icon {
     padding: 0 20px;
-}
-
-.header-style-four .header-top .social-icon:before {
-    position: absolute;
-    right: 0;
-    top: -14px;
-    content: '';
-    background: #264a7d;
-    height: 50px;
-    width: 1px;
-}
-
-.header-style-four .header-top .social-icon:after {
-    position: absolute;
-    left: 0;
-    top: -14px;
-    content: '';
-    background: #264a7d;
-    height: 50px;
-    width: 1px;
 }
 
 .header-style-four .header-top .social-icon li {
@@ -8391,7 +8371,6 @@ section.whychooseus-section-two {
     bottom: 0;
     height: 47px;
     width: 2px;
-    background-image: url(../images/shape/border-shape-11.png);
 }
 
 .header-style-four .main-menu .navigation>li>a {
@@ -8405,7 +8384,6 @@ section.whychooseus-section-two {
     bottom: 0;
     height: 2px;
     width: 100%;
-    background-image: url(../images/shape/border-shape-12.png);
 }
 
 /* Services Section three */
@@ -11429,7 +11407,7 @@ section.whychooseus-section-two {
     font-weight: 700;
     color: #fff;
     padding: 27px 20px;
-    background-color: #203282;
+    background-color: #b70005;
     border-right: 1px solid #000000;
     text-align: center;
 }
@@ -14283,12 +14261,12 @@ section.whychooseus-section-two {
 
 .accordion-box.style-three .block .acc-btn.active:before,
 .accordion-box.style-three .block .acc-btn:hover:before {
-    background-color: #4caf50;
+    background-color: #b70005;
 }
 
 .accordion-box.style-three .block .acc-btn.active i,
 .accordion-box.style-three .block .acc-btn:hover i {
-    color: #4caf50;
+    color: #b70005;
 }
 
 .accordion-box.style-three .block {

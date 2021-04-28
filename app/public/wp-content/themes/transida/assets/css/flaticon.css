@@ -107,7 +107,7 @@
 .flaticon-processing:before { content: "\f14c"; }
 .flaticon-product:before { content: "\f14d"; }
 .flaticon-check-mark:before { content: "\f14e"; }
-.flaticon-phone-with-wire:before { content: "\f14f"; }
+.flaticon-phone-with-wire:before { content: "\f14f"; color: #fff; }
 .flaticon-drug:before { content: "\f150"; }
 .flaticon-graphic-tablet:before { content: "\f151"; }
 .flaticon-play-arrow:before { content: "\f152"; }

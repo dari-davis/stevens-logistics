@@ -658,7 +658,7 @@ class Transida_About_Company_V2 extends WP_Widget
 	/** @see WP_Widget::form */
 	function form($instance)
 	{	
-		$logo_icon_img = ($instance) ? esc_attr($instance['logo_icon_img']) : 'http://el.commonsupport.com/newwp/transida/wp-content/uploads/2020/11/logo-v3-2.png';
+		$logo_icon_img = ($instance) ? esc_attr($instance['logo_icon_img']) : 'http://el.commonsupport.com/newwp/transida/wp-content/uploads/2020/11/logo-v2-2.png';
 		$content = ($instance) ? esc_attr($instance['content']) : '';
 		$feature_list = ($instance) ? esc_attr($instance['feature_list']) : '';
 		$certificate_img = ($instance) ? esc_attr($instance['certificate_img']) : 'http://el.commonsupport.com/newwp/transida/wp-content/uploads/2020/11/certificate.png';
@@ -676,10 +676,6 @@ class Transida_About_Company_V2 extends WP_Widget
         <p>
             <label for="<?php echo esc_attr($this->get_field_id('feature_list')); ?>"><?php esc_html_e('Feature List:', 'transida'); ?></label>
             <textarea class="widefat" id="<?php echo esc_attr($this->get_field_id('feature_list')); ?>" name="<?php echo esc_attr($this->get_field_name('feature_list')); ?>" ><?php echo wp_kses_post($feature_list); ?></textarea>
-        </p>
-        <p>
-            <label for="<?php echo esc_attr($this->get_field_id('certificate_img')); ?>"><?php esc_html_e('Certificate ISO Image Url:', 'transida'); ?></label>
-            <input placeholder="<?php esc_attr_e('Image Url', 'transida');?>" class="widefat" id="<?php echo esc_attr($this->get_field_id('certificate_img')); ?>" name="<?php echo esc_attr($this->get_field_name('certificate_img')); ?>" type="text" value="<?php echo esc_attr($certificate_img); ?>" />
         </p>
                       
                 
