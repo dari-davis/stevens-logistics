@@ -253,10 +253,10 @@
 		display: none;
 	}
 	.work-process-block .count:before {
-		border-color: #ff5f15;
+		border-color: #b70005;
 	}
 	.work-process-block .count {
-		color: #ff5f15;
+		color: #b70005;
 	}
 	.header-style-two .header-top:before {
 		display: none;

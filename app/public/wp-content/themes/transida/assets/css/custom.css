@@ -31,14 +31,14 @@
     height: 55px;
     width: 55px;
 	line-height:55px;
-	background:#293e9c;
+	background:#000000;
     z-index: 1;
     -webkit-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 .pagination li a:focus, .pagination li a:hover, .pagination li span:focus, .pagination li span:hover, .pagination li span.current{
-	background: #ff5f15;
+	background: #b70005;
 	color:#ffffff;
 }
 
@@ -183,7 +183,7 @@
 }
 .footer-widget ul li:hover a,
 .footer-widget ul li:hover:before{
-	color:#ff5f15;	
+	color:#b70005;	
 }
 .main-footer.style-two .footer-widget ul li a,
 .main-footer.style-two .footer-widget ul li:before,
@@ -258,7 +258,7 @@
 /***************Services Sidebar Widget Style *********/
 
 .service-sidebar .service-widget  {
-    border-top: 5px solid #ff5f15;
+    border-top: 5px solid #b70005;
 	box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.1);
     position: relative;
     padding: 40px 30px 30px;
@@ -278,7 +278,7 @@
 	display:none;	
 }
 .service-sidebar .widget_categories-two ul li:hover{
-	border-color: #ff5f15;
+	border-color: #b70005;
 }
 .widget_categories-two ul li{
 	padding-right:40px;	
@@ -331,7 +331,7 @@ iframe{
     transition: .5s ease;
 }
 .widget .tagcloud a:hover{
-	background: #ff5f15;
+	background: #b70005;
 	color:#fff;	
 }
 .transida-comment-box .transida-comment-box{
