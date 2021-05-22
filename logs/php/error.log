@@ -418,3 +418,95 @@
 [28-Apr-2021 14:18:33 UTC] PHP  10. WP_Hook->do_action() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/plugin.php:484
 [28-Apr-2021 14:18:33 UTC] PHP  11. WP_Hook->apply_filters() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/class-wp-hook.php:316
 [28-Apr-2021 14:18:33 UTC] PHP  12. transida_main_header_area() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/class-wp-hook.php:292
+[17-May-2021 20:15:16 UTC] PHP Warning:  file_get_contents(/Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/themes/neve/assets/css/fontawesome-all.css): failed to open stream: No such file or directory in /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/transida-plugin/inc/helpers/functions.php on line 7
+[17-May-2021 20:15:16 UTC] PHP Stack trace:
+[17-May-2021 20:15:16 UTC] PHP   1. {main}() /Users/darielledavis/Local Sites/stevens-logistics/app/public/index.php:0
+[17-May-2021 20:15:16 UTC] PHP   2. require() /Users/darielledavis/Local Sites/stevens-logistics/app/public/index.php:17
+[17-May-2021 20:15:16 UTC] PHP   3. require_once() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-blog-header.php:19
+[17-May-2021 20:15:16 UTC] PHP   4. include() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/template-loader.php:106
+[17-May-2021 20:15:16 UTC] PHP   5. get_template_part() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/themes/neve/page.php:46
+[17-May-2021 20:15:16 UTC] PHP   6. locate_template() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/general-template.php:204
+[17-May-2021 20:15:16 UTC] PHP   7. load_template() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/template.php:676
+[17-May-2021 20:15:16 UTC] PHP   8. require() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/template.php:732
+[17-May-2021 20:15:16 UTC] PHP   9. do_action() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/themes/neve/template-parts/content-page.php:9
+[17-May-2021 20:15:16 UTC] PHP  10. WP_Hook->do_action() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/plugin.php:484
+[17-May-2021 20:15:16 UTC] PHP  11. WP_Hook->apply_filters() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/class-wp-hook.php:316
+[17-May-2021 20:15:16 UTC] PHP  12. Neve\Views\Page_Layout->render_page() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/class-wp-hook.php:292
+[17-May-2021 20:15:16 UTC] PHP  13. the_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/themes/neve/inc/views/page_layout.php:29
+[17-May-2021 20:15:16 UTC] PHP  14. apply_filters() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/post-template.php:253
+[17-May-2021 20:15:16 UTC] PHP  15. WP_Hook->apply_filters() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/plugin.php:212
+[17-May-2021 20:15:16 UTC] PHP  16. Elementor\Frontend->apply_builder_in_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/class-wp-hook.php:292
+[17-May-2021 20:15:16 UTC] PHP  17. Elementor\Frontend->get_builder_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/frontend.php:907
+[17-May-2021 20:15:16 UTC] PHP  18. Elementor\Core\DocumentTypes\Page->print_elements_with_wrapper() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/frontend.php:993
+[17-May-2021 20:15:16 UTC] PHP  19. Elementor\Core\DocumentTypes\Page->print_elements() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/core/base/document.php:943
+[17-May-2021 20:15:16 UTC] PHP  20. Elementor\Element_Section->print_element() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/core/base/document.php:1420
+[17-May-2021 20:15:16 UTC] PHP  21. Elementor\Element_Section->print_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:650
+[17-May-2021 20:15:16 UTC] PHP  22. Elementor\Element_Column->print_element() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:911
+[17-May-2021 20:15:16 UTC] PHP  23. Elementor\Element_Column->print_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:650
+[17-May-2021 20:15:16 UTC] PHP  24. TRANSIDAPLUGIN\Element\Slider_V3->print_element() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:911
+[17-May-2021 20:15:16 UTC] PHP  25. TRANSIDAPLUGIN\Element\Slider_V3->print_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:650
+[17-May-2021 20:15:16 UTC] PHP  26. TRANSIDAPLUGIN\Element\Slider_V3->render_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:679
+[17-May-2021 20:15:16 UTC] PHP  27. TRANSIDAPLUGIN\Element\Slider_V3->get_current_skin() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:544
+[17-May-2021 20:15:16 UTC] PHP  28. TRANSIDAPLUGIN\Element\Slider_V3->get_current_skin_id() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:846
+[17-May-2021 20:15:16 UTC] PHP  29. TRANSIDAPLUGIN\Element\Slider_V3->get_settings() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:832
+[17-May-2021 20:15:16 UTC] PHP  30. TRANSIDAPLUGIN\Element\Slider_V3->ensure_settings() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/core/base/base-object.php:40
+[17-May-2021 20:15:16 UTC] PHP  31. TRANSIDAPLUGIN\Element\Slider_V3->get_init_settings() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/core/base/base-object.php:142
+[17-May-2021 20:15:16 UTC] PHP  32. TRANSIDAPLUGIN\Element\Slider_V3->get_data() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:1787
+[17-May-2021 20:15:16 UTC] PHP  33. TRANSIDAPLUGIN\Element\Slider_V3->sanitize_settings() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:987
+[17-May-2021 20:15:16 UTC] PHP  34. TRANSIDAPLUGIN\Element\Slider_V3->get_controls() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:2040
+[17-May-2021 20:15:16 UTC] PHP  35. TRANSIDAPLUGIN\Element\Slider_V3->get_stack() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:267
+[17-May-2021 20:15:16 UTC] PHP  36. TRANSIDAPLUGIN\Element\Slider_V3->get_stack() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:154
+[17-May-2021 20:15:16 UTC] PHP  37. TRANSIDAPLUGIN\Element\Slider_V3->init_controls() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:461
+[17-May-2021 20:15:16 UTC] PHP  38. TRANSIDAPLUGIN\Element\Slider_V3->_register_controls() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:1951
+[17-May-2021 20:15:16 UTC] PHP  39. get_fontawesome_icons() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/transida-plugin/elementor/slider_v3.php:114
+[17-May-2021 20:15:16 UTC] PHP  40. file_get_contents() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/transida-plugin/inc/helpers/functions.php:7
+[17-May-2021 20:15:16 UTC] PHP Warning:  file_get_contents(/Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/themes/neve/assets/css/flaticon.css): failed to open stream: No such file or directory in /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/transida-plugin/inc/helpers/functions.php on line 30
+[17-May-2021 20:15:16 UTC] PHP Stack trace:
+[17-May-2021 20:15:16 UTC] PHP   1. {main}() /Users/darielledavis/Local Sites/stevens-logistics/app/public/index.php:0
+[17-May-2021 20:15:16 UTC] PHP   2. require() /Users/darielledavis/Local Sites/stevens-logistics/app/public/index.php:17
+[17-May-2021 20:15:16 UTC] PHP   3. require_once() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-blog-header.php:19
+[17-May-2021 20:15:16 UTC] PHP   4. include() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/template-loader.php:106
+[17-May-2021 20:15:16 UTC] PHP   5. get_template_part() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/themes/neve/page.php:46
+[17-May-2021 20:15:16 UTC] PHP   6. locate_template() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/general-template.php:204
+[17-May-2021 20:15:16 UTC] PHP   7. load_template() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/template.php:676
+[17-May-2021 20:15:16 UTC] PHP   8. require() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/template.php:732
+[17-May-2021 20:15:16 UTC] PHP   9. do_action() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/themes/neve/template-parts/content-page.php:9
+[17-May-2021 20:15:16 UTC] PHP  10. WP_Hook->do_action() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/plugin.php:484
+[17-May-2021 20:15:16 UTC] PHP  11. WP_Hook->apply_filters() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/class-wp-hook.php:316
+[17-May-2021 20:15:16 UTC] PHP  12. Neve\Views\Page_Layout->render_page() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/class-wp-hook.php:292
+[17-May-2021 20:15:16 UTC] PHP  13. the_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/themes/neve/inc/views/page_layout.php:29
+[17-May-2021 20:15:16 UTC] PHP  14. apply_filters() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/post-template.php:253
+[17-May-2021 20:15:16 UTC] PHP  15. WP_Hook->apply_filters() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/plugin.php:212
+[17-May-2021 20:15:16 UTC] PHP  16. Elementor\Frontend->apply_builder_in_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-includes/class-wp-hook.php:292
+[17-May-2021 20:15:16 UTC] PHP  17. Elementor\Frontend->get_builder_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/frontend.php:907
+[17-May-2021 20:15:16 UTC] PHP  18. Elementor\Core\DocumentTypes\Page->print_elements_with_wrapper() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/frontend.php:993
+[17-May-2021 20:15:16 UTC] PHP  19. Elementor\Core\DocumentTypes\Page->print_elements() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/core/base/document.php:943
+[17-May-2021 20:15:16 UTC] PHP  20. Elementor\Element_Section->print_element() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/core/base/document.php:1420
+[17-May-2021 20:15:16 UTC] PHP  21. Elementor\Element_Section->print_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:650
+[17-May-2021 20:15:16 UTC] PHP  22. Elementor\Element_Column->print_element() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:911
+[17-May-2021 20:15:16 UTC] PHP  23. Elementor\Element_Column->print_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:650
+[17-May-2021 20:15:16 UTC] PHP  24. TRANSIDAPLUGIN\Element\Slider_V3->print_element() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:911
+[17-May-2021 20:15:16 UTC] PHP  25. TRANSIDAPLUGIN\Element\Slider_V3->print_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php:650
+[17-May-2021 20:15:16 UTC] PHP  26. TRANSIDAPLUGIN\Element\Slider_V3->render_content() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:679
+[17-May-2021 20:15:16 UTC] PHP  27. TRANSIDAPLUGIN\Element\Slider_V3->get_current_skin() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:544
+[17-May-2021 20:15:16 UTC] PHP  28. TRANSIDAPLUGIN\Element\Slider_V3->get_current_skin_id() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:846
+[17-May-2021 20:15:16 UTC] PHP  29. TRANSIDAPLUGIN\Element\Slider_V3->get_settings() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:832
+[17-May-2021 20:15:16 UTC] PHP  30. TRANSIDAPLUGIN\Element\Slider_V3->ensure_settings() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/core/base/base-object.php:40
+[17-May-2021 20:15:16 UTC] PHP  31. TRANSIDAPLUGIN\Element\Slider_V3->get_init_settings() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/core/base/base-object.php:142
+[17-May-2021 20:15:16 UTC] PHP  32. TRANSIDAPLUGIN\Element\Slider_V3->get_data() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:1787
+[17-May-2021 20:15:16 UTC] PHP  33. TRANSIDAPLUGIN\Element\Slider_V3->sanitize_settings() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:987
+[17-May-2021 20:15:16 UTC] PHP  34. TRANSIDAPLUGIN\Element\Slider_V3->get_controls() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:2040
+[17-May-2021 20:15:16 UTC] PHP  35. TRANSIDAPLUGIN\Element\Slider_V3->get_stack() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:267
+[17-May-2021 20:15:16 UTC] PHP  36. TRANSIDAPLUGIN\Element\Slider_V3->get_stack() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php:154
+[17-May-2021 20:15:16 UTC] PHP  37. TRANSIDAPLUGIN\Element\Slider_V3->init_controls() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:461
+[17-May-2021 20:15:16 UTC] PHP  38. TRANSIDAPLUGIN\Element\Slider_V3->_register_controls() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php:1951
+[17-May-2021 20:15:16 UTC] PHP  39. get_fontawesome_icons() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/transida-plugin/elementor/slider_v3.php:114
+[17-May-2021 20:15:16 UTC] PHP  40. get_et_icons() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/transida-plugin/inc/helpers/functions.php:17
+[17-May-2021 20:15:16 UTC] PHP  41. file_get_contents() /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/transida-plugin/inc/helpers/functions.php:30
+[17-May-2021 20:15:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function TRANSIDAPLUGIN\Element\transida_trim() in /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/transida-plugin/elementor/our_services_v3.php:290
+Stack trace:
+#0 /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/controls-stack.php(1892): TRANSIDAPLUGIN\Element\Our_Services_V3->render()
+#1 /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(549): Elementor\Controls_Stack->render_by_mode()
+#2 /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/widget-base.php(679): Elementor\Widget_Base->render_content()
+#3 /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/includes/base/element-base.php(650): Elementor\Widget_Base->print_content()
+#4 /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/elementor/inclu in /Users/darielledavis/Local Sites/stevens-logistics/app/public/wp-content/plugins/transida-plugin/elementor/our_services_v3.php on line 290

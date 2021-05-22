@@ -1,0 +1,18 @@
+[17/May/2021:21:05:22] (I): WordPress Instance Info:
+[17/May/2021:21:05:22] (I): Home URL : http://stevens-logistics.local
+[17/May/2021:21:05:22] (I): Site URL : http://stevens-logistics.local
+[17/May/2021:21:05:22] (I): WordPress Version : 5.7.1
+[17/May/2021:21:05:22] (I): Onboarding Version : 1.1.12
+[17/May/2021:21:05:22] (I): Multisite : No
+[17/May/2021:21:05:22] (I): Server Info : nginx/1.16.0
+[17/May/2021:21:05:22] (I): PHP Version : 7.3.5
+[17/May/2021:21:05:22] (I): HTTPS : No
+[17/May/2021:21:05:22] (I): PHP Max Execution Time : 1200
+[17/May/2021:21:05:22] (I): PHP Max Input Vars : 4000
+[17/May/2021:21:05:22] (I): Max Upload Size : 314572800
+[17/May/2021:21:05:22] (I): Plugins:
+[17/May/2021:21:05:23] (I): [PLUGIN] Contact Form 7 : v5.4 (Takayuki Miyoshi)
+[17/May/2021:21:05:23] (I): [PLUGIN] Duplicate Menu : v0.2.2 (Jonathan Christopher)
+[17/May/2021:21:05:23] (I): [PLUGIN] Elementor : v3.2.2 (Elementor.com)
+[17/May/2021:21:05:23] (I): [PLUGIN] Templates Patterns Collection : v1.1.12 (ThemeIsle)
+[17/May/2021:21:05:23] (I): [PLUGIN] Transida Plugin : v1.0 (Template Path)
